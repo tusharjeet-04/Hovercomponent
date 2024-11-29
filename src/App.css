@@ -1,0 +1,174 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App container styling */
+.app {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.app h1 {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styling */
+.app p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Component layout */
+.click-counter,
+.hover-counter {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app {
+    padding: 15px;
+  }
+
+  .app h1 {
+    font-size: 28px;
+  }
+
+  .app p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app {
+    padding: 10px;
+  }
+
+  .app h1 {
+    font-size: 24px;
+  }
+
+  .app p {
+    font-size: 12px;
+  }
+}
+
+
+
+/* Base styling for the button */
+.click-counter {
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-left: 45%;
+}
+
+/* Hover effect */
+.click-counter:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Focus effect */
+.click-counter:focus {
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.75);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .click-counter {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .click-counter {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+/* Styling for the hover counter text */
+.hover-counter {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect */
+.hover-counter:hover {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .hover-counter {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hover-counter {
+    font-size: 16px;
+  }
+}
+
+/* General styling for components */
+.component-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Style for all interactive elements */
+.component-wrapper button,
+.component-wrapper h2 {
+  margin: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .component-wrapper {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .component-wrapper {
+    padding: 10px;
+  }
+}
